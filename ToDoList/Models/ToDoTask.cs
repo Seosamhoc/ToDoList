@@ -12,5 +12,7 @@ namespace ToDoList.Models
         public string TaskName { get; set; }
         public string TaskDescription { get; set; }
         public ApplicationUser TaskOwner { get; set; }
+        public string TaskOwnerId { get; set; }
+        public DateTime LastEdited { get; set; }
     }
 }
